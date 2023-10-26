@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: linear-gradient(to top, #303504, #000000);
+  background-color: #2b2a2a;
+  margin: 0;
+  padding: 0;
+}
+.login-container {
+  width: 400px;
+  height: 450px;
+  background-color: #ffffff13;
+  filter: drop-shadow(1px 1px 1px #6b6b6b);
+  color: white;
+  padding: 20px;
+  margin: 220px auto;
+  border-radius: 10px;
+}
+
+.logo {
+  height: 15%;
+  margin-left: 165px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  background: linear-gradient(to bottom, #fff, #cbdf13);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0px 15px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #ffffff1c;
+  color: #fff;
+  border: none;
+}
+
+.button-iniciar {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #238636;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button-iniciar:hover {
+  background-color: #2ca144;
+}
+
+.button-registrar {
+  width: 100%;
+  background-color: #3b768d;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.button-registrar:hover {
+  background-color: #4c93af;
+}
+
+.volver {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 150px;
+  font-size: 14px;
+}
