@@ -22,7 +22,7 @@ body {
   position: fixed;
   width: 100%;
   height: 65px;
-  background: linear-gradient(to top, #303504, #000000);
+  background: linear-gradient(to bottom, #000c25, #000000);
 }
 
 .logo {
@@ -55,7 +55,8 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: linear-gradient(to top, #000000, #303504, #000000);
+  background: linear-gradient(to top, #000000, #000c25, #000000);
+  /* background: linear-gradient(to top, #000000, #d3330c, #000000); */
   /* height: 100vh; */
   /* background: linear-gradient(to bottom, #fff, #178b9b); */
 }
@@ -67,9 +68,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../Img/Joystick.jpg");
+  background-image: url("../Img/4127298.jpg");
   background-size: 100%;
-  background-position: center;
+  background-position: bottom;
   /* border: 1px solid #ff0000; */
 }
 
@@ -81,7 +82,7 @@ main {
   width: 100%;
   margin-bottom: 20px;
   color: white;
-  filter: drop-shadow(1px 1px 5px #b40a0a);
+  filter: drop-shadow(1px 1px 5px #000000);
   /* border: 1px solid #b3ff03; */
 }
 
@@ -95,7 +96,7 @@ main {
   width: 50%;
   font-size: 18px;
   font-weight: bold;
-  filter: drop-shadow(1px 1px 5px #b40a0a);
+  filter: drop-shadow(1px 1px 5px #000000);
   color: white;
   /* border: 1px solid #b3ff03; */
 }
@@ -415,7 +416,7 @@ footer {
   align-items: center;
   height: 100px;
   /* margin-top: 60vh; */
-  background: linear-gradient(to top, #303504, #000000);
+  background: linear-gradient(to top, #000c25, #000000);
 }
 
 footer img {
