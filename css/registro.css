@@ -3,14 +3,13 @@
 body {
   font-family: "Ubuntu", sans-serif;
   background-color: #2b2a2a;
-  background: linear-gradient(to top, #303504, #000000);
+  background: linear-gradient(to top, #000c25, #000000);
   margin: 0;
   padding: 0;
 }
 .registro-container {
   width: 900px;
   height: 100%;
-
   background-color: #ffffff13;
   filter: drop-shadow(1px 1px 1px #6b6b6b);
   color: white;
@@ -22,7 +21,7 @@ body {
 .registro-container h2 {
   text-align: center;
   margin-bottom: 50px;
-  background: linear-gradient(to bottom, #fff, #cbdf13);
+  background: linear-gradient(to bottom, #fff, #000c25);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -50,7 +49,7 @@ input[type="date"] {
 .button-iniciar {
   width: 100%;
   margin-top: 10px;
-  background-color: #238636;
+  background-color: #233a86;
   color: white;
   padding: 10px;
   margin-bottom: 25px;
@@ -61,7 +60,7 @@ input[type="date"] {
 }
 
 .button-iniciar:hover {
-  background-color: #2ca144;
+  background-color: #2f4eb4;
 }
 
 .button-registrar {
