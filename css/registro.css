@@ -11,7 +11,7 @@ body {
   width: 900px;
   height: 100%;
   background-color: #ffffff13;
-  filter: drop-shadow(1px 1px 1px #6b6b6b);
+  box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
   color: white;
   padding: 30px;
   margin: 96px auto;
